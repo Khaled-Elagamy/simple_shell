@@ -8,7 +8,7 @@
 void(*checkbuild(char **arv))(char **arv)
 {
 	int i, j;
-	build_s T[] = {
+	buildin_s T[] = {
 		{"exit", exitt},
 		{"env", env},
 		{"setenv", _setenv},
